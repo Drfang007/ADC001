@@ -15,8 +15,8 @@ class AlienInvasion:
 		"""开始游戏主循环"""
 		while True:
 			# 监视键盘和鼠标事件。
-			for enent in pygame.enent.get():
-				if enent.type ==pygame.QUIT:
+			for event in pygame.event.get():
+				if event.type ==pygame.QUIT:
 					sys.exit()
 			self.screen.fill(self.bg_color)
 
