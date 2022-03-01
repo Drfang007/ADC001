@@ -62,6 +62,7 @@ class AlienInvasion:
 			self._check_enents()
 			self._update_screen()
 			self.ship.update()
+				
 
 if __name__ == '__main__':
 	#创建游戏实例并运行游戏。
